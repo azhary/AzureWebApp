@@ -14,10 +14,6 @@
 			<input type="email" id="email" name="email"/>
 		</div>
 		<div>
-			<label for="nama">Nama</label>
-			<input type="text" id="nama" name="nama"/>
-		</div>
-		<div>
 			<input type="submit" id="submit" name="submit"/>
 		</div>
 	</form>
