@@ -1,8 +1,8 @@
 <?php 
-define("HOSTNAME", "hostname_database_anda");
-define("USERNAME", "username_database_anda");
-define("PASSWORD", "password_database_anda");
-define("DBNAME", "nama_database_anda"); /* misalnya nama database saya db_azurems */
+define("HOSTNAME", "br-cdbr-azure-south-a.cloudapp.net");
+define("USERNAME", "b89ed51f5d9bbe");
+define("PASSWORD", "3f2785a2");
+define("DBNAME", "db_azurems"); /* misalnya nama database saya db_azurems */
 
 $conn = mysql_connect(HOSTNAME, USERNAME, PASSWORD)
 		or die ("Error saat menghubungkan ke host database");
